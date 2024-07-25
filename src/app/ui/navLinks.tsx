@@ -12,6 +12,7 @@ export default function NavLinks() {
                     </Link>
                 )}
             )}
+            <button>SEND A REQUEST ></button>
         </div>
     )
 }
