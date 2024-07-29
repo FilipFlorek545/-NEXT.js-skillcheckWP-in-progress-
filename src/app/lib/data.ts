@@ -2,19 +2,19 @@ export function linksList() {
     return [
         {
             name: 'cases',
-            href: '/cases',
+            href: '#cases',
         },
         {
             name: 'services',
-            href: '/services',
+            href: '#services',
         },
         {
             name: 'blog',
-            href: '/blog',
+            href: '#blog',
         },
         {
             name: 'contact',
-            href: '/contact',
+            href: '#contact',
         },
     ]
 }

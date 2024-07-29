@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {ProductBox} from "@/app/ui/productBox";
 
 
 export default function Home() {
@@ -37,6 +38,27 @@ export default function Home() {
             <div>AND THIS</div>
             <div>AND THAT</div>
             {/*<div><Image></Image></div>*/}
+          </div>
+        </div>
+      </section>
+      <section className="wide white_bg">
+        <h5 id="cases">CASES</h5>
+        <div className="section_contents">
+          <h2>
+            <span>Lorem ipsum dolor sit </span><br/>
+            <span>amet, consectetur adipiscing <span>elit mauris</span></span><br/>
+            <span><span>et urna</span><span>egestas</span></span>
+          </h2>
+          <div className="products">
+            <div className="big_scale">
+              <ProductBox name={'Alpha'} description={'This is an amazing description of our Alpha product.'} />
+              <ProductBox name={'Omega'} description={'Check out this outstanding Omega tech we developed'} />
+            </div>
+            <div className="small_scale">
+              <ProductBox name={'Sigma'} description={'Sigma, because simplicity is the best.'} />
+              <ProductBox name={'Zeta'} description={'Zeta, a completely new way to see the world.'} />
+              <ProductBox name={'Epsilon'} description={'Our answer to the new trends.'} />
+            </div>
           </div>
         </div>
       </section>
